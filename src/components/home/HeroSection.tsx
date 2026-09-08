@@ -43,12 +43,12 @@ export function HeroSection() {
             <div className="relative overflow-hidden rounded-[2.25rem] border border-white/80 bg-[#d9eaf2] p-3 shadow-[0_24px_70px_rgba(64,75,91,0.12)] sm:p-4">
               <div className="relative h-[480px] overflow-hidden rounded-[1.7rem] bg-[#b9ddec] sm:h-[590px] lg:h-[650px]">
                 <Image
-                  src="/images/home/french teacher.jpeg"
+                  src="/images/home/hero-natalia.png"
                   alt="Prof. Natalia Manaj, mësuese e gjuhës frënge"
                   fill
                   sizes="(min-width: 1024px) 468px, (min-width: 640px) min(468px, calc(100vw - 96px)), calc(100vw - 64px)"
                   priority
-                  className="object-cover object-[62%_center]"
+                  className="object-cover object-center"
                 />
               </div>
               <div className="absolute bottom-7 left-7 right-7 rounded-2xl border border-white/70 bg-white/95 p-4 shadow-lg backdrop-blur sm:bottom-8 sm:left-8 sm:right-auto sm:w-[245px]">
